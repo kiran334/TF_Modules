@@ -11,9 +11,9 @@ terraform {
         }
     }
     backend "remote" {
-        organization = "your_organization_name"
+        organization = "kiran_545"
         workspaces {
-            name = "your_workspace_name"
+            name = "TF-Git-Dev-wksp"
         }
       
     }
